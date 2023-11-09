@@ -7,18 +7,13 @@
 
   <link rel="stylesheet" href="./css/estilos.css">
   <!-- CSS de Bootstrap -->
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link href="https://cdn.datatables.net/v/bs5/dt-1.13.7/datatables.min.css" rel="stylesheet">
- 
-
-
-
 </head>
 <body>
 
-<div class="container">
+<div class="container fondo">
   <h1 class="text-center">CRUD con PHP, PDO, Ajax y Datatables.js</h1>
   <h1 class="text-center">Ing. Juan Carlos Sulbaran</h1>
   <div class="row">
