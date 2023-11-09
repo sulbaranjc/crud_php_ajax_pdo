@@ -107,5 +107,26 @@
   crossorigin="anonymous"></script>
   <script src="https://cdn.datatables.net/v/bs5/dt-1.13.7/datatables.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+ <script type="text/javascript">
+  $(document).ready(function(){
+    var dataTable = $('#datos_usuario').DataTable({
+      "processing": true,
+      "serverSide": true,
+      "order": [],
+      "ajax": {
+          url: "obtener_registros.php",
+          type: "POST"
+      },
+      "columnDefs": [
+          {
+              "targets": [0, 3, 4],
+              "orderable": false,
+          },
+      ]
+    });
+  });
+</script>
 </body>
 </html>
